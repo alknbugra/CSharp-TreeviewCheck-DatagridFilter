@@ -4,6 +4,12 @@
                                           
        ![Ekran Alıntısı](https://user-images.githubusercontent.com/29266933/58093176-a7cda200-7bd6-11e9-9602-a2af41d18691.PNG)
        
+                                                       2 - Apply Button
+                                                    
+       ![Ekran Alıntısı_1](https://user-images.githubusercontent.com/29266933/58093178-a7cda200-7bd6-11e9-94f3-16d0675c4e80.PNG)
+       
+       ```sh
+       
        TreeView AfterCheck event code
        string[] parcala;
         string filtre = "";
@@ -45,16 +51,15 @@
             }
         }
         
-                                                           2 - Apply Button
-                                                    
-       ![Ekran Alıntısı_1](https://user-images.githubusercontent.com/29266933/58093178-a7cda200-7bd6-11e9-94f3-16d0675c4e80.PNG)
-       
+               
        Button Code
              MessageBox.Show(parcala[0] + " --- " + filtre);
             filterView(parcala[0], filtre);
             
-----------------------------------------------------------------------------------
-       private void filterView(string kolonadi, string secilen)
+            ```
+------------------------------------------------------------------------------------------
+         ```sh
+     private void filterView(string kolonadi, string secilen)
         {
             for (int i = 0; i < dizi.Length; i++)
             {
@@ -66,3 +71,4 @@
             }
         } 
         
+```
