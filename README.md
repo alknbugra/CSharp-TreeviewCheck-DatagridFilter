@@ -5,6 +5,7 @@
 
 string[] parcala;
         string filtre = "";
+        
         private void treeView1_AfterCheck(object sender, TreeViewEventArgs e)
         {
             bool x = false;
