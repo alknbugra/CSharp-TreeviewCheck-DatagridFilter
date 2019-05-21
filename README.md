@@ -44,6 +44,8 @@ string[] parcala;
             }
         }
 
+Metot --- > 
+
 private void filterView(string kolonadi, string secilen)
         {
             for (int i = 0; i < dizi.Length; i++)
@@ -56,4 +58,9 @@ private void filterView(string kolonadi, string secilen)
             }
         }
         
+Uygula Butonu (Apply Button )
+        private void button1_Click(object sender, EventArgs e)
+        {
+            filterView(parcala[0], filtre);
+        }
 ```
