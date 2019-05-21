@@ -1,17 +1,9 @@
-# CSharp-TreeviewCheck-DatagridFilter
-                                        
-                                            1- Filtering system graphic image
-                                          
-       ![Ekran Alıntısı](https://user-images.githubusercontent.com/29266933/58093176-a7cda200-7bd6-11e9-9602-a2af41d18691.PNG)
-       
-                                                       2 - Apply Button
-                                                    
-       ![Ekran Alıntısı_1](https://user-images.githubusercontent.com/29266933/58093178-a7cda200-7bd6-11e9-94f3-16d0675c4e80.PNG)
-       
-       ```sh
-       
-       TreeView AfterCheck event code
-       string[] parcala;
+![Ekran Alıntısı](https://user-images.githubusercontent.com/29266933/58093674-af417b00-7bd7-11e9-96ea-7e790893427e.PNG)
+![Ekran Alıntısı_1](https://user-images.githubusercontent.com/29266933/58093677-af417b00-7bd7-11e9-9920-b55a085f5240.PNG)
+
+```sh
+
+string[] parcala;
         string filtre = "";
         private void treeView1_AfterCheck(object sender, TreeViewEventArgs e)
         {
@@ -50,16 +42,8 @@
                 }
             }
         }
-        
-               
-       Button Code
-             MessageBox.Show(parcala[0] + " --- " + filtre);
-            filterView(parcala[0], filtre);
-            
-            ```
-------------------------------------------------------------------------------------------
-         ```sh
-     private void filterView(string kolonadi, string secilen)
+
+private void filterView(string kolonadi, string secilen)
         {
             for (int i = 0; i < dizi.Length; i++)
             {
@@ -69,6 +53,6 @@
                     dataGridView1.DataSource = dataView;
                 }
             }
-        } 
+        }
         
 ```
